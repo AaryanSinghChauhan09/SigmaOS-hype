@@ -1,4 +1,6 @@
-# Hype
+# Sigmaos Hype
+
+> Forked from omacom (MIT). See `SIGMAOS_FORK.md`.
 
 Simple presentations, written in Markdown. Big headlines, images, video, and code—with a visual editor to put everything in order.
 
