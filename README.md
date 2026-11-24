@@ -1,14 +1,14 @@
 # Sigmaos Hype
 
-> Forked from omacom (MIT). See `SIGMAOS_FORK.md`.
+> Forked from SigmaOS (MIT). See `SIGMAOS_FORK.md`.
 
 Simple presentations, written in Markdown. Big headlines, images, video, and code—with a visual editor to put everything in order.
 
-Hype is a native app for Omarchy. Your presentation is a Markdown file with its media alongside it. Choose an installed Omarchy theme, pick a font, and export to PDF or PowerPoint.
+Hype is a native app for SigmaOS. Your presentation is a Markdown file with its media alongside it. Choose an installed SigmaOS theme, pick a font, and export to PDF or PowerPoint.
 
 ## Install
 
-Install Hype from the [Omarchy Package Repository (OPR)](https://github.com/omacom/omarchy-pkgs):
+Install Hype from the [SigmaOS Package Repository (OPR)](https://github.com/AaryanSinghChauhan09/SigmaOS-pkgs):
 
 ```sh
 omarchy pkg add hype
@@ -18,7 +18,7 @@ Then open **Hype** from the app launcher, or run `hype` in a terminal.
 
 ## Make a presentation
 
-Open Hype from your app launcher. It reopens your last presentation; use **Ctrl+N** to start a new one in your current Omarchy theme, or **Ctrl+O** to choose a Markdown file.
+Open Hype from your app launcher. It reopens your last presentation; use **Ctrl+N** to start a new one in your current SigmaOS theme, or **Ctrl+O** to choose a Markdown file.
 
 In **Visual** mode, select a slide in the sidebar and write its Markdown below the preview. Changes appear as you type. Drag the divider to give the preview or editor more room. Two buttons in the top bar switch modes. The grid button, or **Ctrl+M**, turns the **Overview** on and off, returning to the mode you came from. The button beside it shows a slide in **Visual** mode and `#` in **Markdown** mode; click it, or press **Ctrl+.**, to switch between them. Markdown mode edits the whole presentation, with the same formatting bar on top.
 
@@ -157,7 +157,7 @@ Each slide supports one image or video. Copy the whole presentation folder when 
 
 ## Choose your look
 
-The palette and font icons in the toolbar choose an installed Omarchy theme and a presentation font. Hover to see the current choices. Theme colors apply to text, code, and slide backgrounds; your images keep their original colors. Code stays monospaced. Hype’s interface follows your current desktop theme independently and updates when you change it. It speaks the language picked under Omarchy's **Setup > Language** too, switching as soon as you pick another; your slides stay as you wrote them.
+The palette and font icons in the toolbar choose an installed SigmaOS theme and a presentation font. Hover to see the current choices. Theme colors apply to text, code, and slide backgrounds; your images keep their original colors. Code stays monospaced. Hype’s interface follows your current desktop theme independently and updates when you change it. It speaks the language picked under SigmaOS's **Setup > Language** too, switching as soon as you pick another; your slides stay as you wrote them.
 
 The header shows the presentation's name with your position in it, such as “Slide 4 of 45”; saving and exporting report their progress on that line. The file icon beside it holds New, Open, Save, Export, and Version history, and is highlighted when you have unsaved changes.
 
@@ -247,7 +247,7 @@ The mouse wheel over the sidebar selects the previous or next slide. Home/End ju
 
 ## Run from source
 
-To build Hype yourself, install a C++17 compiler, CMake, Qt 6.9 or newer, FFmpeg, and GNU source-highlight; see [the package definition in omarchy-pkgs](https://github.com/omacom/omarchy-pkgs/blob/master/pkgbuilds/hype/PKGBUILD) for dependencies. Then:
+To build Hype yourself, install a C++17 compiler, CMake, Qt 6.9 or newer, FFmpeg, and GNU source-highlight; see [the package definition in omarchy-pkgs](https://github.com/AaryanSinghChauhan09/SigmaOS-pkgs/blob/master/pkgbuilds/hype/PKGBUILD) for dependencies. Then:
 
 ```sh
 ./bin/build
