@@ -265,3 +265,8 @@ QT_QPA_PLATFORMTHEME=generic QT_STYLE_OVERRIDE=Fusion \
   QT_QPA_PLATFORM="offscreen:configfile=$PWD/tests/fixtures/presenter-screens.json" \
   ./build/hype_tests presenterViewUsesSeparateScreens
 ```
+## Documentation
+
+Wiki documentation is available in the SigmaOS Wiki Staging repository:
+
+- [SigmaOS Wiki Staging](https://github.com/AaryanSinghChauhan09/sigmaos-wiki-staging#SigmaOS-hype) - Full Wiki documentation for all SigmaOS components
