@@ -11,7 +11,7 @@ Hype is a native app for SigmaOS. Your presentation is a Markdown file with its 
 Install Hype from the [SigmaOS Package Repository (OPR)](https://github.com/AaryanSinghChauhan09/SigmaOS-pkgs):
 
 ```sh
-omarchy pkg add hype
+sigmaos pkg add hype
 ```
 
 Then open **Hype** from the app launcher, or run `hype` in a terminal.
