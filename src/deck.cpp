@@ -172,7 +172,7 @@ static QString themedHeader(QString header, const QString &name, const QString &
 // A new presentation starts in the desktop's current Omarchy theme.
 static QString starterSource(const QMap<QString, QString> &themes) {
     QFile current(qEnvironmentVariable("XDG_STATE_HOME", QDir::homePath() + "/.local/state") +
-                  "/omarchy/current/theme.name");
+                  "/sigmaos/current/theme.name");
     QString name = current.open(QIODevice::ReadOnly) ? QString::fromUtf8(current.readAll()).trimmed() : QString();
     if (!themes.contains(name))
         name = "tokyo-night";
@@ -528,9 +528,9 @@ void Deck::redo() {
 }
 void Deck::discoverThemes() {
     m_themes.clear();
-    QString root = qEnvironmentVariable("OMARCHY_PATH", QDir::homePath() + "/.local/share/omarchy");
-    QStringList roots{root + "/themes", QDir::homePath() + "/omarchy/themes",
-                      QDir::homePath() + "/.config/omarchy/themes"};
+    QString root = qEnvironmentVariable("SIGMAOS_PATH", QDir::homePath() + "/.local/share/sigmaos");
+    QStringList roots{root + "/themes", QDir::homePath() + "/sigmaos/themes",
+                      QDir::homePath() + "/.config/sigmaos/themes"};
     for (auto &r : roots)
         for (auto &name : QDir(r).entryList(QDir::Dirs | QDir::NoDotAndDotDot)) {
             QString path = r + "/" + name + "/colors.toml";

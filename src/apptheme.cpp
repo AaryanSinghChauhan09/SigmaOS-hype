@@ -36,7 +36,7 @@ QList<QPair<QString, QString>> readThemeColors(const QString &path) {
 }
 AppTheme::AppTheme(QObject *parent)
     : AppTheme(qEnvironmentVariable("XDG_STATE_HOME", QDir::homePath() + "/.local/state") +
-                   "/omarchy/current",
+                   "/sigmaos/current",
                parent) {}
 AppTheme::AppTheme(const QString &currentDirectory, QObject *parent)
     : QObject(parent), m_currentDirectory(currentDirectory) {
